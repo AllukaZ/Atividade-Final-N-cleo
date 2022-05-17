@@ -31,7 +31,17 @@ html {
   color: #ffffff;
   font-weight: bold;
   margin: 60px;
+  transition: all 0.45s;
 }
+
+.box_link a:hover {
+
+    color: #1A081F;
+    background-size: 100% 2px;
+    
+  
+}
+
 
 .box_icon {
   padding-top: 20px;
@@ -224,3 +234,13 @@ button:disabled {
     color: #8e8e93;
     border-color: #8e8e93;
   }
+
+  .footer{
+      background-color: #4d361f;
+      text-align: center;
+      color: #ffffff;
+      height: 60px;
+      padding-top: 20px;
+  }
+
+ 
