@@ -19,10 +19,10 @@
             </div>
             <div class="box_link">
 
-                <a href="">Home</a>
-                <a href="">Tipos de café</a>
-                <a href="">Fazendo cafés</a>
-
+                <a href="#banner_init">Home</a>
+                <a href="#tipocafe">Tipos de café</a>
+                <a href="#table">Fazendo cafés</a>
+                
             </div>
             <div class="box_icon">
 
@@ -37,13 +37,69 @@
         </nav>
     </header>
 
-    <section class="banner_1">
-        <div class="banner_box_element">
-
+    <section class="banner_1" id="banner_init">
+        
+        <div class="banner_img">
             <h1>Potencialize sua vida com café</h1>
-            <h3>Inicie seu dia com uma receita inovadora de café</h3>
+            <p class="text_light">Inicie seu dia com uma receita inovadora de café</p>
 
             <button class="btn">Explore o site</button>
+        </div>
+    </section>
+
+    <section class="type_coffee" id="tipocafe">
+        <div>
+        <h1>Tipos de Café</h1>
+        </div>
+
+        <br><br>
+
+        <div class="head_tabela">
+        <h2>Cappuccino</h2>
+        <h2>Irish Coffee</h2>
+        <h2>Caffè Latte</h2>
+        <h2>Café Macchiato</h2>
+        <h2>Café Mocha</h2>
+        <h2>Café Duplo</h2>
+        </div>
+
+
+        <div class="img_tabela">
+       
+            <img src="img/cappuccino.jpg" alt="" width="120px">
+            <img src="img/irish_coffee.jpg" alt="" width="122px">
+            <img src="img/latte.jpg" alt="" width="120px">
+            <img src="img/macchiato.jpg" alt="" width="150px">
+            <img src="img/mocha.jpg" alt="" width="85px">
+            <img src="img/duplo.jpg" alt="" width="120px">
+
+        </div>
+
+        <div class="desc_tabela" id="table">
+            <h4>O cappuccino é uma receita derivada da Itália, que mistura o café espresso com leite vaporizado, culminando em um resistente e delicioso creme.</h4>
+            <h4>Invenção da Irlanda, o Irish coffee leva, além do café, o tradicional uísque irlandês e uma camada de creme.</h4>
+            <h4>O caffè latte também possui origem italiana e se trata de um café com leite, também conhecido como pingado em algumas regiões do Brasil.</h4>
+            <h4>O macchiato é uma versão adocicada do espresso com uma “macchia di latte” (mancha de leite) vaporizada, que traz cremosidade e valoriza os açúcares da bebida.</h4>
+            <h4>O mocha ou mocaccino é para os fãs de chocolate, já que é feito com café espresso, leite vaporizado, espuma de leite e calda de chocolate.</h4>
+            <h4>Essa variedade da bebida nada mais é do que aquilo que o nome diz: duas medidas do café espresso servidas na mesma xícara.</h4>
+        </div>
+    </section>
+
+    <section class="fazendo_cafe">
+        <div>
+            <h1 class="texto_linha">Fazendo Cafés</h1>
+            <br><br><br>
+            <a href=""><iframe width="560" height="315" src="https://www.youtube.com/embed/rLaVDQy0q8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+        </div>
+
+        <div class="formulario">
+            <form action="">
+                <p>Inscreva-se em nosso site para conferir as novidades!</p>
+                <input type="text" placeholder="Nome" class="input">
+                <input type="email" placeholder="Email" class="input">
+                <input type="tel" placeholder="Telefone" class="input">
+                <input type="submit" class="submit" value="Enviar">
+            </form>
         </div>
     </section>
 
